@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://n"
+        }
+      ],
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow this app to access camera."
+        }
+      ]
+    ],
+    "name": "projet-allergie",
+    "slug": "projet-allergie",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
